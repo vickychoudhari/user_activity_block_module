@@ -1,0 +1,5 @@
+name: User Activity Log
+description: create a user activity log module block
+package: Custom
+type: module
+core: 8.x

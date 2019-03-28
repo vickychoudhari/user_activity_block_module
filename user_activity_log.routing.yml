@@ -1,0 +1,8 @@
+user_activity_log.mypage:
+  path: '/userlog'
+  defaults:
+    _controller: '\Drupal\user_activity_log\Controller\UserActivityController::helloworld'
+    _title: 'This is create a new user activity log'
+  requirements:
+    _permission: 'access content'
+  

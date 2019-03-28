@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+
+
+
+function user_activity_log_theme($existing, $type, $theme, $path) {
+  return [
+      'user_activity_log_tpl' => [
+          'variables' => [
+            'nodes_build' => null,
+            'comment_build' => null,
+            'list_nodes_build' => null,
+            'list_comment_build' => null,
+        ],
+      'template' => 'user-activity-log-tpl',  
+    ],
+  ];
+}
